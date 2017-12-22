@@ -36,8 +36,19 @@ Collect all vulns and infomations in http://testphp.vulnweb.com/
 
     POST http://testphp.vulnweb.com/secured/newuser.php 'uuname' error SQLi vulnerable
     POST http://testphp.vulnweb.com/userinfo.php 'uname' blind SQLi vulnerable
+    GET http://testphp.vulnweb.com/artists.php 'artist' error SQLi vulnerable
+    GET http://testphp.vulnweb.com/listproducts.php 'cat' error SQLi vulnerable
+    GET http://testphp.vulnweb.com/listproducts.php 'artist' error SQLi vulnerable
+    GET http://testphp.vulnweb.com/product.php 'pic' error SQLi vulnerable
+    
   
 ## File Include
+
+    http://testphp.vulnweb.com/showimage.php?file=showimage.php
+    
+## SSRF
+
+    http://testphp.vulnweb.com/showimage.php?file=http://127.0.0.1:22
 
 ## CLRF
 
