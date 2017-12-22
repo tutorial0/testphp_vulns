@@ -15,6 +15,8 @@ Collect all vulns and infomations in http://testphp.vulnweb.com/
 ## Directory Index
 
     http://testphp.vulnweb.com/Flash/
+    http://testphp.vulnweb.com/CVS/
+    http://testphp.vulnweb.com/.idea/
   
 ## Infomation disclosure
   
