@@ -10,6 +10,7 @@ Collect all vulns and infomations in http://testphp.vulnweb.com/
     http://testphp.vulnweb.com/crossdomain.xml
     http://testphp.vulnweb.com/CVS/Root
     http://testphp.vulnweb.com/secured/phpinfo.php
+    http://testphp.vulnweb.com/_mmServerScripts/mysql.php
     
 
 ## Directory Index
