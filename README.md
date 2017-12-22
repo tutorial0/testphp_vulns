@@ -14,26 +14,26 @@ Collect all vulns and infomations in http://testphp.vulnweb.com/
 
 ## Directory Index
 
-  http://testphp.vulnweb.com/Flash/
+    http://testphp.vulnweb.com/Flash/
   
 ## Infomation disclosure
   
-  wvs@acunetix.com
-  test@gmail.com
-  http://127.0.0.1
-  wasp@acunetix.com
+    wvs@acunetix.com
+    test@gmail.com
+    http://127.0.0.1
+    wasp@acunetix.com
   
 ## XSS
   
-   POST http://testphp.vulnweb.com/search.php 'searchFor'
-   POST http://testphp.vulnweb.com/guestbook.php 'name'
-   POST http://testphp.vulnweb.com/secured/newuser.php 'uuname'
+    POST http://testphp.vulnweb.com/search.php 'searchFor'
+    POST http://testphp.vulnweb.com/guestbook.php 'name'
+    POST http://testphp.vulnweb.com/secured/newuser.php 'uuname'
    
   
 ## SQL Inject
 
-  POST http://testphp.vulnweb.com/secured/newuser.php 'uuname' error SQLi vulnerable
-  POST http://testphp.vulnweb.com/userinfo.php 'uname' blind SQLi vulnerable
+    POST http://testphp.vulnweb.com/secured/newuser.php 'uuname' error SQLi vulnerable
+    POST http://testphp.vulnweb.com/userinfo.php 'uname' blind SQLi vulnerable
   
 ## File Include
 
