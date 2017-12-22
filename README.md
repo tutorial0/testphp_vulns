@@ -38,3 +38,7 @@ Collect all vulns and infomations in http://testphp.vulnweb.com/
 ## File Include
 
 ## CLRF
+
+## Weak Pass
+
+    test/test
